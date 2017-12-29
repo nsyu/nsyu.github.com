@@ -3,17 +3,24 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Dev</title>
+    <title>MONGODB 기본 명령어 및 자주 사용되는 명령어 | Dev</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Dev">
-<meta property="og:url" content="https://nsyu.github.io/index.html">
+        <meta name="keywords" content="Database,NOSQL" />
+    
+    <meta name="description" content="몽고디비 쓰면서 뭘 많이 쓸까(기본) DB들의 이름 리스트 1show dbs  사용중 DB의 컬랙션들의 리스트(컬랙션(mongodb)=테이블(mysql)) 1show collections  사용자 리스트 1show users  DB 선택/생성 1use &amp;#123;&amp;#123;DB명&amp;#125;&amp;#125;  use DB 복사 1db.copyDatabase(ori">
+<meta name="keywords" content="Database,NOSQL">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MONGODB 기본 명령어 및 자주 사용되는 명령어">
+<meta property="og:url" content="https://nsyu.github.io/2017/12/29/mongodb1/index.html">
 <meta property="og:site_name" content="Dev">
+<meta property="og:description" content="몽고디비 쓰면서 뭘 많이 쓸까(기본) DB들의 이름 리스트 1show dbs  사용중 DB의 컬랙션들의 리스트(컬랙션(mongodb)=테이블(mysql)) 1show collections  사용자 리스트 1show users  DB 선택/생성 1use &amp;#123;&amp;#123;DB명&amp;#125;&amp;#125;  use DB 복사 1db.copyDatabase(ori">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2017-12-29T01:49:18.749Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Dev">
+<meta name="twitter:title" content="MONGODB 기본 명령어 및 자주 사용되는 명령어">
+<meta name="twitter:description" content="몽고디비 쓰면서 뭘 많이 쓸까(기본) DB들의 이름 리스트 1show dbs  사용중 DB의 컬랙션들의 리스트(컬랙션(mongodb)=테이블(mysql)) 1show collections  사용자 리스트 1show users  DB 선택/생성 1use &amp;#123;&amp;#123;DB명&amp;#125;&amp;#125;  use DB 복사 1db.copyDatabase(ori">
     
 
     
@@ -129,245 +136,184 @@ ga('send', 'pageview');
                         <div class="main-body-header">
     <h1 class="header">
     
-    <em class="page-title-link" data-url="home">Home</em>
+    <a class="page-title-link" href="/categories/Database/">Database</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/Database/NOSQL/">NOSQL</a>
     </h1>
 </div>
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-mongodb1" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2017" class="archive-year"><i class="icon fa fa-calendar-o"></i>2017</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/Database/">Database</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Database/NOSQL/">NOSQL</a>
-            </div>
-            <div class="date"><time datetime="2017-12-29T00:53:44.000Z" itemprop="datePublished">2017-12-29</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2017/12/29/mongodb1/">MONGODB 기본 명령어 및 자주 사용되는 명령어</a>
+        MONGODB 기본 명령어 및 자주 사용되는 명령어
         </h1>
     
 
-        <p class="article-excerpt">
-            몽고디비 쓰면서 뭘 많이 쓸까(기본)
-DB들의 이름 리스트
-1show dbs
-
-사용중 DB의 컬랙션들의 리스트(컬랙션(mongodb)=테이블(mysql))
-1show collections
-
-사용자 리스트
-1show users
-
-DB 선택/생성
-1use &#123;&#123;DB명&#125;&#125;
-
-use DB 복사
-1db.copyDatabase(ori
-        </p>
-    </div>
-</article>
-    
-
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
+            </header>
         
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/Database/">Database</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Database/NOSQL/">NOSQL</a>
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2017/12/29/mongodb1/" class="article-date">
+            <time datetime="2017-12-29T00:53:44.000Z" itemprop="datePublished">2017-12-29</time>
+        </a>
+    </div>
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Database/">Database</a>, <a class="tag-link" href="/tags/NOSQL/">NOSQL</a>
+    </div>
+
             </div>
-            <div class="date"><time datetime="2017-12-28T04:29:55.000Z" itemprop="datePublished">2017-12-28</time></div>
-        </div>
         
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2017/12/28/mongodb/">MONGODB 설치 및 기본 설명</a>
-        </h1>
-    
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h2 id="몽고디비-쓰면서-뭘-많이-쓸까-기본"><a href="#몽고디비-쓰면서-뭘-많이-쓸까-기본" class="headerlink" title="몽고디비 쓰면서 뭘 많이 쓸까(기본)"></a>몽고디비 쓰면서 뭘 많이 쓸까(기본)</h2><ul>
+<li><p>DB들의 이름 리스트</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show dbs</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>사용중 DB의 컬랙션들의 리스트(컬랙션(mongodb)=테이블(mysql))</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show collections</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>사용자 리스트</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show users</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>DB 선택/생성</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use &#123;&#123;DB명&#125;&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>use DB 복사</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">db.copyDatabase(origin, destination, [hostname])</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>use DB 삭제</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">db.droDatabase()</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>나가기</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="몽고디비-쓰면서-뭘-많이-쓸까-컬랙션"><a href="#몽고디비-쓰면서-뭘-많이-쓸까-컬랙션" class="headerlink" title="몽고디비 쓰면서 뭘 많이 쓸까(컬랙션)"></a>몽고디비 쓰면서 뭘 많이 쓸까(컬랙션)</h2><ul>
+<li><p>컬랙션 생성</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">db.createCollection(name, [options])</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>카운트 쿼리</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">db.&#123;&#123;컬랙션명&#125;&#125;.count(query=&#123;&#125;, [option])</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>컬랙션 복사</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">db.&#123;&#123;컬랙션명&#125;&#125;.copyTo(&#123;&#123;새로운컬랙션명&#125;&#125;)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>검색 삭제</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">db.&#123;&#123;컬랙션명&#125;&#125;.deleteOne([filter], [option])</span><br><span class="line">db.&#123;&#123;컬랙션명&#125;&#125;.remove(query)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>전체 삭제</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">db.&#123;&#123;컬랙션명&#125;&#125;.deleteMany([filter], [option])</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>컬랙션 삭제</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">db.&#123;&#123;컬랙션명&#125;&#125;.drop()</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>한줄 검색 : </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">db.&#123;&#123;컬랙션명&#125;&#125;.findOne([query], [field], [options], [option])</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>검색</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">db.&#123;&#123;컬랙션명&#125;&#125;.find([query], [field], [options], [option])</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>한줄 추가</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">db.&#123;&#123;컬랙션명&#125;&#125;.insert(obj)</span><br><span class="line">db.createCollection(&#123;&#123;컬랙션명&#125;&#125;)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>검색 수정</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">db.&#123;&#123;컬랙션명&#125;&#125;.replaceOne(filter, replacement, [option])</span><br><span class="line">db.&#123;&#123;컬랙션명&#125;&#125;.update(query, object, [upsert, multi option]) <span class="comment"># 없을시 insert</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="pretty를-아는가"><a href="#pretty를-아는가" class="headerlink" title="pretty를 아는가?"></a>pretty를 아는가?</h2><ul>
+<li>검색 결과물(json)을 가독성 좋은 구조로 뿌려줌</li>
+</ul>
+<h2 id="선호하는-툴은-무엇인가"><a href="#선호하는-툴은-무엇인가" class="headerlink" title="선호하는 툴은 무엇인가?"></a>선호하는 툴은 무엇인가?</h2><ul>
+<li>Compass</li>
+<li>Shell</li>
+</ul>
 
-        <p class="article-excerpt">
-            MONGODB 가 뭐냐?
-DATABASE 
-NOSQL 
-DOCUMENT STORE
+        </div>
+        <footer class="article-footer">
+            
 
-설치전에 해보자
-MONGODB ATLAS : https://www.mongodb.com/download-center?jmp=homepage#atlas
-cluster 로 구성 되며 편하다
-돈내라고 난리다
-안내도 되지만 거슬리니까 그냥 설치해서 쓸란다
 
-설치가이드
-MONGODB
-        </p>
+
+    <a data-url="https://nsyu.github.io/2017/12/29/mongodb1/" data-id="cjbr9g46d000zd0i4wb6l767z" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
-    
-        </div>
-    
 
+    <section id="comments">
     
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
         
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/WEB/">WEB</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/WEB/etc/">etc</a>
-            </div>
-            <div class="date"><time datetime="2017-12-26T15:00:00.000Z" itemprop="datePublished">2017-12-27</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2017/12/27/hexo&git/">hexo &amp; hueman &amp; git</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            초기 설치시 참고 URLhttps://innks.github.io/2017/05/09/hexo/get-quick-hexo/https://hyunseob.github.io/2016/02/23/start-hexo/http://futurecreator.github.io/2016/06/14/hexo-apply-hueman-theme/
-왜 hexo deploy 시 
-        </p>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
-</article>
-    
 
     
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/IDEA/">IDEA</a>
-            </div>
-            <div class="date"><time datetime="2017-12-26T15:00:00.000Z" itemprop="datePublished">2017-12-27</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2017/12/27/idea/">어떤걸 만들까?</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            어떤걸 만들까?
-국내 음악 스트리밍 사이트 API로 TOP100곡 수집 후 유튜브 동영상 플레이어로 재생하여 무료 음악 스트리밍 페이지 제작
-.gif 생성기(움직임)
-.png 생성기(투명)
-Simple Lasso(간단한 누끼툴)
-
-
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-    
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/INFRA/">INFRA</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/INFRA/setting/">setting</a>
-            </div>
-            <div class="date"><time datetime="2017-12-26T15:00:00.000Z" itemprop="datePublished">2017-12-27</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2017/12/27/infra/">개발 구현 초기 선택</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            무엇을 써볼까?
-Microsoft Azure
-Oracle VM VircualBox
-Amazon AWS
-
-Framework?
-Codeigniter
-Laravel
-
-DB?
-MongoDB
-Mysql
-ElasticSearch
-
-
-        </p>
-    </div>
-</article>
-    
-
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/WEB/">WEB</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/WEB/etc/">etc</a>
-            </div>
-            <div class="date"><time datetime="2017-12-26T08:17:50.966Z" itemprop="datePublished">2017-12-26</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2017/12/26/hello-world/">Hello World</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-
-    </div></section>
-
+    </section>
 
 
                         </div>
@@ -428,6 +374,19 @@ Quick
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2017/12/28/mongodb/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">MONGODB 설치 및 기본 설명</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -570,11 +529,13 @@ Quick
     var disqus_shortname = 'hexo-theme-hueman';
     
     
+    var disqus_url = 'https://nsyu.github.io/2017/12/29/mongodb1/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
